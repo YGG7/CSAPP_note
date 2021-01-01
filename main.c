@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include "chapter2/TestFloatArithmetic.c"
-#include "chapter2/TestInplaceSwap.c"
+#include "chapter2/TestOverflow.c"
 
 int main() {
-    testInplaceSwap();
+    testAddok();
     return 0;
 }
