@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include "chapter2/TestOverflow.c"
-#include "chapter2/TestIntegerDivision.c"
+#include "chapter2/TestInfty.cpp"
 
 int main() {
-    testIntegerDivision();
+    testInfty();
     return 0;
 }
