@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include "chapter2/TestInfty.c"
-#include "chapter3/TestCharToUnsigned.c"
+#include "chapter3/TestContinue.c"
 
 int main() {
-    testCharToUnsigned();
+    testContinue();
     return 0;
 }
