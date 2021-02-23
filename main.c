@@ -4,8 +4,9 @@
 #include "TestLab0/TestChainAssign.c"
 #include "TestLab0/TestMallocFailure.c"
 #include "chapter2/ConvertHex.c"
+#include "TestLab0/TestStr.c"
 
 int main() {
-    convertHex();
+    testStr();
     return 0;
 }
