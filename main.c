@@ -1,7 +1,11 @@
 #include <stdio.h>
-#include "chapter3/TestContinue.c"
+#include "TestLab0/TestNULL.c"
+#include "TestLab0/TestStrlen.c"
+#include "TestLab0/TestChainAssign.c"
+#include "TestLab0/TestMallocFailure.c"
+#include "chapter2/ConvertHex.c"
 
 int main() {
-    testContinue();
+    convertHex();
     return 0;
 }
